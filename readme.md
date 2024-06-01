@@ -11,59 +11,57 @@ IsharaIntelligence is a revolutionary sign language detection system that empowe
 - **User-Friendly Interface:** The static website component allows users to easily sign up, log in, and upload images for analysis.
 - **Open Source:** Built on open-source technologies, IsharaIntelligence fosters collaboration and continuous improvement within the sign language recognition community.
 
-## Demo
-
-[Include a link to a video demo or animated GIF showcasing the system in action]
 
 ## Installation & Setup
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/xvisierra/IsharaIntelligence.git
-Install Dependencies:
+   ```
+   
+## Install Dependencies:
 
-bash
-Copy code
-pip install numpy==1.21.6 Pillow Keras==2.9.0 tensorflow==2.9.1 Flask pandas==1.4.2 opencv-python mediapipe
-Run the Application:
+   ```bash
+   pip install python==3.8 numpy==1.21.6 Pillow Keras==2.9.0 tensorflow==2.9.1 Flask pandas==1.4.2 opencv-python==4.9.0.80 mediapipe==0.9.1.0
+   ```
 
-bash
-Copy code
+
+## Run the Application:
+
+```bash
 python3 app.py
-Usage
-Real-Time Recognition:
+```
+
+## Usage
+**Real-Time Recognition:**
 Run the real-time gesture recognition module.
 Perform sign language gestures in front of your camera.
 View the translated text or interpretations in real-time.
-Image-Based Analysis:
+**Image-Based Analysis:**
 Visit the IsharaIntelligence website.
 Sign up or log in.
 Upload an image of a sign language gesture.
 Receive the identified gesture and its translation.
-Project Structure
-SOURCE CODE/: Contains all the source code for the project.
 
-Hand Gesture Recognition using deep learning/: Includes the deep learning models and datasets.
-model/: Directory for model checkpoints and datasets.
-static/: Contains static files for the web interface such as CSS, images, and JavaScript.
-templates/: HTML templates for the web interface.
-upload/: Directory for uploaded images for analysis.
-real time hand gesture recognition/: Contains the code for the real-time gesture recognition module.
-landmark_utils/: Utility functions for landmark detection.
-model/: Model files for keypoint classification.
-OUTPUT VIDEO/: Directory for storing output videos of gesture recognition.
+## Project Structure
+**SOURCE CODE/:** Contains all the source code for the project.
 
-REVIEW DOCUMENTS/: Documentation related to the project.
+**Hand Gesture Recognition using deep learning/:** Includes the deep learning models and datasets.
 
-COMPLETE DOCUMENTS/: Finalized documents.
-Contributing
-We welcome contributions! Please see our CONTRIBUTING.md file for guidelines.
+**model/:** Directory for model checkpoints and datasets.
 
-License
-IsharaIntelligence is licensed under the MIT License.
+**static/:** Contains static files for the web interface such as CSS, images, and JavaScript.
 
-Contact
-If you have any questions or feedback, feel free to reach out to us:
+**templates/:** HTML templates for the web interface.
 
-Email: [your email address]
-Twitter: [@your_twitter_handle]
+**upload/:** Directory for uploaded images for analysis.
+
+**real time hand gesture recognition/:** Contains the code for the real-time gesture recognition module.
+
+**landmark_utils/:** Utility functions for landmark detection.
+
+**model/:** Model files for keypoint classification.
+
+**OUTPUT VIDEO/:** Directory for storing output videos of gesture recognition.
+
+**REVIEW DOCUMENTS/:** Documentation related to the project.
