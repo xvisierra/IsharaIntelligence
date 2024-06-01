@@ -1,0 +1,13 @@
+Real-Time Hand Gesture Detection for Sign Language Recognition using Python
+
+Algorithm / Model Used: Xception Architecture.
+
+Training accuracy of 99.34%. and 
+Validation accuracy of 99.00%.
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+# Compiled files (results of your model)
+OUTPUT VIDEO/
+Hand Gesture Recognition using deep learning/upload/
+
+# Jupyter Notebook checkpoints (temporary files)
+Hand Gesture Recognition using deep learning/model/.ipynb_checkpoints
+real time hand gesture recognition/model/keypoint_classifier/__pycache__
+real time hand gesture recognition/landmark_utils/__pycache__
+real time hand gesture recognition/model/__pycache__
+SOURCE CODE/__pycache__
+
+# Compiled Python bytecode (temporary files)
+**/__pycache__/
+
+# Potentially large datasets (if you use a remote data storage solution)
+# Hand Gesture Recognition using deep learning/model/Dataset/
+
+# Review documents and SRS (not part of the source code)
+REVIEW DOCUMENTS/
+SRS
+
+# Automatically generated assets
+Hand Gesture Recognition using deep learning/static/
+
+# Miscellaneous
+.DS_Store
+
+Help File (Python 3.8).pdf
+
+REQUIREMENTS.pdf
